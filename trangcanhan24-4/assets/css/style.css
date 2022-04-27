@@ -127,18 +127,21 @@
 
 #body #anhbia .canle {
     position: absolute;
-    left: 0;
     bottom: 0;
 }
 
 #body #anhbia h1 {
     color: black;
+    left: 0;
+
     margin-left: 240px;
     margin-bottom: -56px
 }
 
 #body #anhbia b {
     color: #7e6e6b;
+    left: 0;
+
     bottom: 0;
     margin-left: 240px;
     margin-bottom: -85px
@@ -151,15 +154,32 @@
 }
 
 #body #anhbia .btn1 {
-    right: 0 !important;
-    margin-bottom: -110px;
+    right: 0;
+    font-size: 18px;
+    margin-bottom: -120px;
+    margin-right: 230px;
     text-decoration: none;
+    background-color: #1B74E4 ;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#body #anhbia .btn1:hover,
+#body #anhbia .btn2:hover {
+    opacity: 0.9;
 }
 
 #body #anhbia .btn2 {
-    margin-left: 560px;
-    margin-bottom: -110px;
+    right: 0;
+    margin-right: 30px;
+    font-size: 18px;
+    margin-bottom: -120px;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #e4e6eb ;
+    color: black;
 }
 
 
